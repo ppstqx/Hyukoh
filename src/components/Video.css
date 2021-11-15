@@ -1,0 +1,28 @@
+#video{
+    width:100%;
+    height:100vh;
+    box-sizing: border-box;
+    margin-top: 4rem;
+    font-family:'Karla';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+}
+
+.video-con{
+    margin-top: 6rem;
+}
+
+.h1{
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media screen and (max-width: 1200px){
+    #video{
+        height: 115vh;
+    }
+}
